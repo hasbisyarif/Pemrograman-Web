@@ -1,0 +1,15 @@
+<?php
+
+var_dump(1 + 1);
+## hasilnya yaitu 2 dengan tipe data integer karena menggunakan parameter yang sama
+
+var_dump("1 + 1");
+## outputnya yaitu berupa string "1 + 1" 
+
+var_dump( 1 + "1");
+## outputnya yaitu 2, karena terdapat 1 karakter dengan tiped data string dan 1 karakter menggunakan tipe data integer
+## sehingga php membaca data tersebut yaitu berupa data integer
+
+var_dump( "1" + "1");
+## outputnya yaitu 2 , karena PHP menganggap karaker dalam tanda petik merupakan tipe data integer
+?>
